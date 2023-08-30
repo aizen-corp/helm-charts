@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  foresightd:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2023-08-30T09:52:54.032533058-07:00"
+    dependencies:
+    - condition: foresightd-core.enabled
+      name: foresightd-core
+      repository: ""
+    - condition: foresightd-console.enabled
+      name: foresightd-console
+      repository: ""
+    - condition: foresightd-mlearn.enabled
+      name: foresightd-mlearn
+      repository: ""
+    description: Helm chart for Aizen foresight desktop deployment
+    digest: 2b2452de394350ae13af43986fd7ef5c7e187e840be4227a806cae8a768f19f6
+    name: foresightd
+    type: application
+    urls:
+    - foresightd-1.0.0.tgz
+    version: 1.0.0
+generated: "2023-08-30T09:52:54.027667583-07:00"
