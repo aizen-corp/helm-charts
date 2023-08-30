@@ -29,9 +29,9 @@ helm install [RELEASE_NAME] aizen-foresight/foresight
 | global.image_pullpolicy | string | Always | Image pull policy |
 | global.storage_class | string | standard | Backend storage |
 | global.clustername | string | "" | Required name used to create unique buckets for backend object store |j
-| global.cloud_provider_type | string | minio | Cloud provider type |
-| global.cloud_provider_region | string | us-west-1 | Cloud provider region name |
-| global.customer_bucket_name | string | aizencorp-bucket/foresight | Customer bucket name |
+| global.cloud_provider_type | string |"" | Cloud provider type |
+| global.cloud_provider_region | string | "" | Cloud provider region name |
+| global.customer_bucket_name | string | "" | Customer bucket name |
 | global.storage_type | string | local | Default storage type |
 | global.s3.endpoint_url | string | "" |S3 endpoint url |
 | global.s3.secrets.enabled | boolean | false | Enable s3 access |
