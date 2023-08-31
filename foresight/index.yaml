@@ -1,0 +1,69 @@
+apiVersion: v1
+entries:
+  foresight:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2023-08-31T00:08:55.530409748-07:00"
+    dependencies:
+    - condition: foresight-storage.enabled
+      name: foresight-storage
+      repository: ""
+    - condition: foresight-meta.enabled
+      name: foresight-meta
+      repository: ""
+    - condition: foresight-console.enabled
+      name: foresight-console
+      repository: ""
+    - condition: foresight-servicepod.enabled
+      name: foresight-servicepod
+      repository: ""
+    - condition: foresight-featureset.enabled
+      name: foresight-featureset
+      repository: ""
+    - condition: foresight-dataset.enabled
+      name: foresight-dataset
+      repository: ""
+    - condition: foresight-thrift.enabled
+      name: foresight-thrift
+      repository: ""
+    - condition: foresight-featureview.enabled
+      name: foresight-featureview
+      repository: ""
+    - condition: foresight-mlearn.enabled
+      name: foresight-mlearn
+      repository: ""
+    - condition: foresight-dlearn.enabled
+      name: foresight-dlearn
+      repository: ""
+    - condition: foresight-prediction.enabled
+      name: foresight-prediction
+      repository: ""
+    - condition: foresight-explorer.enabled
+      name: foresight-explorer
+      repository: ""
+    - condition: foresight-dataexplorer.enabled
+      name: foresight-dataexplorer
+      repository: ""
+    - condition: foresight-jobcontroller.enabled
+      name: foresight-jobcontroller
+      repository: ""
+    - condition: foresight-mlflow.enabled
+      name: foresight-mlflow
+      repository: ""
+    - condition: foresight-ingress.enabled
+      name: foresight-ingress
+      repository: ""
+    - condition: foresight-docs.enabled
+      name: foresight-docs
+      repository: ""
+    - condition: foresight-filecopyserver.enabled
+      name: foresight-filecopyserver
+      repository: ""
+    description: Helm chart for Aizen Foresight deployment
+    digest: c8aa6d3f66157361bf235b92419f1d5bd46d24bbf845c12e50616deb2b9c7700
+    name: foresight
+    type: application
+    urls:
+    - foresight-1.0.0.tgz
+    version: 1.0.0
+generated: "2023-08-31T00:08:55.519308789-07:00"
