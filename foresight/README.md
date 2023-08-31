@@ -28,7 +28,7 @@ helm install [RELEASE_NAME] aizen-foresight/foresight
 | global.image_secret | string | "" | Secret to access docker image registry |
 | global.image_pullpolicy | string | Always | Image pull policy |
 | global.storage_class | string | standard | Backend storage |
-| global.clustername | string | "" | Required name used to create unique buckets for backend object store |j
+| global.clustername | string | mycluster | Name used to create unique buckets for backend object store |j
 | global.cloud_provider_type | string |"" | Cloud provider type |
 | global.cloud_provider_region | string | "" | Cloud provider region name |
 | global.customer_bucket_name | string | "" | Customer bucket name |
