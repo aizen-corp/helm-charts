@@ -43,4 +43,7 @@ helm install [RELEASE_NAME] aizen-foresight/foresight
 | global.log.volume_size | string | 50Gi | Volume size for storing log files |
 | foresight-storage.blkcache_size_mb | int | 2048 | Block cache size |
 | foresight-storage.memtable_size_mb | int | 1024 | Mem table size |
-
+| foresight-storage.resources.limits.cpu | string | 8 | cpu limit |
+| foresight-storage.resources.limits.memory | string | 16Gi | memory limit |
+| foresight-storage.resources.requests.cpu | string | 2 | requested cpu from the cpu limit |
+| foresight-storage.resources.requests.memory | string | 2Gi | requested memory from the memory limit |
