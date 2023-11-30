@@ -23,6 +23,7 @@ helm install [RELEASE_NAME] aizen-foresight/foresight
 
 | Key | Type | Default | Description |
 |-----| -----| ------- | ----------- |
+| foresight-core.enabled | string | false | Set this to "true" to deploy aizen foresight core components |
 | global.image_registry | string | aizen.repo.com | The docker image registry to use |
 | global.image_tag | string | "" | common tag for all container images |
 | global.image_secret | string | "" | Secret to access docker image registry |
@@ -48,7 +49,6 @@ helm install [RELEASE_NAME] aizen-foresight/foresight
 | global.mlflow.artifact.secrets.values.mlflow_access_secret_key | string | "" | Define s3 secret key |
 | global.mlflow.artifact.secrets.values.mlflow_endpoint_url | string | ""  | Define s3 end point url for mlflow |
 | global.mlflow.artifact.region | string | "" | Define s3 region name |
-| foresight-core.enabled | string | false | Set this to "true" to enable deploying aizen core components |
 | foresight-core.foresight-storage.blkcache_size_mb | int | 2048 | Block cache size |
 | foresight-core.foresight-storage.memtable_size_mb | int | 1024 | Mem table size |
 | foresight-core.foresight-storage.resources.limits.cpu | string | 8 | cpu limit |
