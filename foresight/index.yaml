@@ -3,7 +3,7 @@ entries:
   foresight:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2023-11-30T13:54:10.055089717-08:00"
+    created: "2024-02-12T12:53:35.953194687-08:00"
     dependencies:
     - condition: foresight-infra.enabled
       name: foresight-infra
@@ -12,10 +12,10 @@ entries:
       name: foresight-core
       repository: ""
     description: Helm chart for Aizen Foresight deployment
-    digest: dda88dbc58a8c81886e672a6f662ba05498efec5c6e1226af84d34b390c4162c
+    digest: 7979241072ed5ab1699ecc99d638da6f4bb843a4ee22a18da41c0c76393cc26e
     name: foresight
     type: application
     urls:
     - foresight-1.0.0.tgz
     version: 1.0.0
-generated: "2023-11-30T13:54:10.017096756-08:00"
+generated: "2024-02-12T12:53:35.898342385-08:00"
