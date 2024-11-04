@@ -3,7 +3,7 @@ entries:
   aizen:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-10-31T16:39:00.892926709-07:00"
+    created: "2024-11-04T12:29:10.927486253-08:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -12,10 +12,10 @@ entries:
       name: core
       repository: ""
     description: Helm chart for Aizen deployment
-    digest: 124cfd9925598cf1eeaa06edc65910a4ca49a69d11cdd904946a587b6f5f0370
+    digest: 2c7395940b93538820cce3378f5d7329d2a895296db241277c438069f4753c0d
     name: aizen
     type: application
     urls:
     - aizen-1.0.0.tgz
     version: 1.0.0
-generated: "2024-10-31T16:39:00.809957744-07:00"
+generated: "2024-11-04T12:29:10.847795369-08:00"
