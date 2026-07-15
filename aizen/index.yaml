@@ -3,7 +3,7 @@ entries:
   aizen:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-07-14T23:52:02.060679826-07:00"
+    created: "2026-07-15T00:05:46.037671349-07:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -20,7 +20,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-07-14T23:52:01.90736446-07:00"
+    created: "2026-07-15T00:05:45.877040841-07:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -37,7 +37,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-07-14T23:52:01.764195821-07:00"
+    created: "2026-07-15T00:05:45.726122641-07:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -52,4 +52,4 @@ entries:
     urls:
     - aizen-1.0.0-2026-07-13.tgz
     version: 1.0.0-2026-07-13
-generated: "2026-07-14T23:52:01.608400577-07:00"
+generated: "2026-07-15T00:05:45.565104203-07:00"
