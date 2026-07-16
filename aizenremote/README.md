@@ -13,9 +13,15 @@ A Helm chart for training Aizen models on remote GPU machines
 helm repo add aizenremote https://aizen-corp.github.io/helm-charts/aizenremote
 helm repo update
 ```
+## Search Aizen repo for various versions
+```
+helm search repo aizenremote --versions --devel
+```
 ## Install Aizen remote components using chart properties
 ```
 helm install [RELEASE_NAME] aizenremote/aizenremote
+OR
+helm install [RELEASE_NAME] aizenremote/aizenermote --version < specific version >
 ```
 
 ### Chart properties
