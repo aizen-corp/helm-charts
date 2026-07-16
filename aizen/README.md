@@ -13,9 +13,15 @@ A Helm chart for Aizen machine learning platform
 helm repo add aizen https://aizen-corp.github.io/helm-charts/aizen
 helm repo update
 ```
+## Search Aizen repo for various versions
+```
+helm search repo aizen --versions --devel
+```
 ## Install Aizen infra and core components using chart properties
 ```
 helm install [RELEASE_NAME] aizen/aizen
+OR
+helm install [RELEASE_NAME] aizen/aizen --version < specific version >
 ```
 
 ## Install Aizen INFRA components (pre-requistes)
