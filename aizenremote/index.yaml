@@ -3,7 +3,7 @@ entries:
   aizenremote:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-07-11T11:39:27.637723422-07:00"
+    created: "2026-07-16T14:18:03.732685558-07:00"
     dependencies:
     - condition: metastorage.enabled
       name: metastorage
@@ -15,10 +15,10 @@ entries:
       name: jobcontroller
       repository: ""
     description: Helm chart for Aizen remote deployment
-    digest: 8853b58246e8beed6cd0df8ae297541ca85f873c905b89254251f126fdeb5727
+    digest: 4dba0636410fb653b162d3a2e383d12e5acb340fc521aba281525ba63d55f7d8
     name: aizenremote
     type: application
     urls:
-    - aizenremote-1.0.0.tgz
-    version: 1.0.0
-generated: "2025-07-11T11:39:27.627985608-07:00"
+    - aizenremote-1.0.0-2026-07-16.tgz
+    version: 1.0.0-2026-07-16
+generated: "2026-07-16T14:18:03.717019187-07:00"
