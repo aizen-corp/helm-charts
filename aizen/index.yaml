@@ -3,7 +3,7 @@ entries:
   aizen:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-03T16:51:23.086364998-07:00"
+    created: "2026-08-17T10:58:11.799401904-07:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -20,7 +20,24 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-03T16:51:22.912106236-07:00"
+    created: "2026-08-17T10:58:11.630305121-07:00"
+    dependencies:
+    - condition: infra.enabled
+      name: infra
+      repository: ""
+    - condition: core.enabled
+      name: core
+      repository: ""
+    description: Helm chart for Aizen deployment
+    digest: 6a8e40711035eae4f884d68c57d4382a228ea781318843fa6d00cbb84a995d6d
+    name: aizen
+    type: application
+    urls:
+    - aizen-1.0.0-2026-08-17.tgz
+    version: 1.0.0-2026-08-17
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-08-17T10:58:11.462419117-07:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -37,7 +54,7 @@ entries:
     version: 1.0.0-2026-07-30
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-03T16:51:22.741850252-07:00"
+    created: "2026-08-17T10:58:11.285059668-07:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -54,7 +71,7 @@ entries:
     version: 1.0.0-2026-07-27
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-03T16:51:22.573765196-07:00"
+    created: "2026-08-17T10:58:11.114351666-07:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -69,4 +86,4 @@ entries:
     urls:
     - aizen-1.0.0-2026-07-16.tgz
     version: 1.0.0-2026-07-16
-generated: "2026-08-03T16:51:22.379110045-07:00"
+generated: "2026-08-17T10:58:10.938265927-07:00"
