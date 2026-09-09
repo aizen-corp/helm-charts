@@ -3,7 +3,7 @@ entries:
   workflow:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-09-06T23:41:34.246919266-07:00"
+    created: "2026-09-08T23:42:17.940889772-07:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -12,7 +12,7 @@ entries:
       name: core
       repository: ""
     description: Helm chart for Aizen workflow deployment
-    digest: a352493ca71370723a3e84ef8d1ac5d9bd3792987dacb127f995771ba7b95403
+    digest: 1547e4f9f71e7ea6c6fdb89d2a970c5c3b0e29a29b1d5ded85be058d42950e45
     name: workflow
     type: application
     urls:
@@ -20,7 +20,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-09-06T23:41:34.112175157-07:00"
+    created: "2026-09-08T23:42:17.801907932-07:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -37,7 +37,7 @@ entries:
     version: 1.0.0-2026-08-17
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-09-06T23:41:33.967524202-07:00"
+    created: "2026-09-08T23:42:17.667415602-07:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -54,7 +54,7 @@ entries:
     version: 1.0.0-2026-07-30
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-09-06T23:41:33.825063587-07:00"
+    created: "2026-09-08T23:42:17.528760043-07:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -71,7 +71,7 @@ entries:
     version: 1.0.0-2026-07-27
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-09-06T23:41:33.688385909-07:00"
+    created: "2026-09-08T23:42:17.401695622-07:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -86,4 +86,4 @@ entries:
     urls:
     - workflow-1.0.0-2026-07-16.tgz
     version: 1.0.0-2026-07-16
-generated: "2026-09-06T23:41:33.539750715-07:00"
+generated: "2026-09-08T23:42:17.263210653-07:00"
