@@ -3,7 +3,7 @@ entries:
   workflow:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-09-08T23:42:17.940889772-07:00"
+    created: "2026-09-14T11:53:14.711694788-07:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -20,7 +20,24 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-09-08T23:42:17.801907932-07:00"
+    created: "2026-09-14T11:53:14.558166459-07:00"
+    dependencies:
+    - condition: infra.enabled
+      name: infra
+      repository: ""
+    - condition: core.enabled
+      name: core
+      repository: ""
+    description: Helm chart for Aizen workflow deployment
+    digest: a5e38e49ce0964fe1835e62ef3f28b4ad9e7b866e3f13ebe89389e025952c05d
+    name: workflow
+    type: application
+    urls:
+    - workflow-1.0.0-2026-09-14.tgz
+    version: 1.0.0-2026-09-14
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-09-14T11:53:14.42271071-07:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -37,7 +54,7 @@ entries:
     version: 1.0.0-2026-08-17
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-09-08T23:42:17.667415602-07:00"
+    created: "2026-09-14T11:53:14.289711791-07:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -54,7 +71,7 @@ entries:
     version: 1.0.0-2026-07-30
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-09-08T23:42:17.528760043-07:00"
+    created: "2026-09-14T11:53:14.150366314-07:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -71,7 +88,7 @@ entries:
     version: 1.0.0-2026-07-27
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-09-08T23:42:17.401695622-07:00"
+    created: "2026-09-14T11:53:13.991275138-07:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -86,4 +103,4 @@ entries:
     urls:
     - workflow-1.0.0-2026-07-16.tgz
     version: 1.0.0-2026-07-16
-generated: "2026-09-08T23:42:17.263210653-07:00"
+generated: "2026-09-14T11:53:13.838652178-07:00"
