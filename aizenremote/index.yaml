@@ -3,7 +3,7 @@ entries:
   aizenremote:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-09-14T11:52:51.282471835-07:00"
+    created: "2026-09-27T20:44:34.466115144-07:00"
     dependencies:
     - condition: metastorage.enabled
       name: metastorage
@@ -23,7 +23,27 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-09-14T11:52:51.271348552-07:00"
+    created: "2026-09-27T20:44:34.452773498-07:00"
+    dependencies:
+    - condition: metastorage.enabled
+      name: metastorage
+      repository: ""
+    - condition: mcad-controller.enabled
+      name: mcad-controller
+      repository: ""
+    - condition: jobcontroller.enabled
+      name: jobcontroller
+      repository: ""
+    description: Helm chart for Aizen remote deployment
+    digest: 1c3d1348e533770d3670ea10390e73ea439f0d65337af02f3ca59c8ecf146e4a
+    name: aizenremote
+    type: application
+    urls:
+    - aizenremote-1.0.0-2026-09-24.tgz
+    version: 1.0.0-2026-09-24
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-09-27T20:44:34.440705291-07:00"
     dependencies:
     - condition: metastorage.enabled
       name: metastorage
@@ -43,7 +63,7 @@ entries:
     version: 1.0.0-2026-09-14
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-09-14T11:52:51.260623907-07:00"
+    created: "2026-09-27T20:44:34.427305885-07:00"
     dependencies:
     - condition: metastorage.enabled
       name: metastorage
@@ -63,7 +83,7 @@ entries:
     version: 1.0.0-2026-08-17
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-09-14T11:52:51.248423023-07:00"
+    created: "2026-09-27T20:44:34.415909598-07:00"
     dependencies:
     - condition: metastorage.enabled
       name: metastorage
@@ -83,7 +103,7 @@ entries:
     version: 1.0.0-2026-07-30
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-09-14T11:52:51.234077511-07:00"
+    created: "2026-09-27T20:44:34.403567772-07:00"
     dependencies:
     - condition: metastorage.enabled
       name: metastorage
@@ -101,4 +121,4 @@ entries:
     urls:
     - aizenremote-1.0.0-2026-07-16.tgz
     version: 1.0.0-2026-07-16
-generated: "2026-09-14T11:52:51.219128778-07:00"
+generated: "2026-09-27T20:44:34.384924337-07:00"
