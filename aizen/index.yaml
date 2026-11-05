@@ -3,7 +3,7 @@ entries:
   aizen:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-05T14:56:26.940011801-08:00"
+    created: "2026-11-05T15:45:31.717367161-08:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -12,7 +12,7 @@ entries:
       name: core
       repository: ""
     description: Helm chart for Aizen deployment
-    digest: 1be54503b61402b5c988753e33fe62bf56d2d1dbaaf8763f2f3607756d8a0550
+    digest: cfaae19f74ba8e269d2729f46c0e21ede9dd07291422504e5a104f7a2aa22080
     name: aizen
     type: application
     urls:
@@ -20,7 +20,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-05T14:56:26.761098733-08:00"
+    created: "2026-11-05T15:45:31.516689974-08:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -37,7 +37,7 @@ entries:
     version: 1.0.0-2026-11-05
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-05T14:56:26.584944315-08:00"
+    created: "2026-11-05T15:45:31.329167793-08:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -54,7 +54,7 @@ entries:
     version: 1.0.0-2026-11-02
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-05T14:56:26.417818143-08:00"
+    created: "2026-11-05T15:45:31.136453834-08:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -71,7 +71,7 @@ entries:
     version: 1.0.0-2026-10-29
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-05T14:56:26.239928605-08:00"
+    created: "2026-11-05T15:45:30.955059041-08:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -88,7 +88,7 @@ entries:
     version: 1.0.0-2026-10-26
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-05T14:56:26.068754675-08:00"
+    created: "2026-11-05T15:45:30.76928874-08:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -105,7 +105,7 @@ entries:
     version: 1.0.0-2026-10-22
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-05T14:56:25.902284783-08:00"
+    created: "2026-11-05T15:45:30.593671907-08:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -122,7 +122,7 @@ entries:
     version: 1.0.0-2026-10-08
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-05T14:56:25.73913843-08:00"
+    created: "2026-11-05T15:45:30.415466524-08:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -139,7 +139,7 @@ entries:
     version: 1.0.0-2026-09-24
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-05T14:56:25.550797946-08:00"
+    created: "2026-11-05T15:45:30.230641773-08:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -156,7 +156,7 @@ entries:
     version: 1.0.0-2026-09-14
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-05T14:56:25.380937715-08:00"
+    created: "2026-11-05T15:45:30.010935069-08:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -173,7 +173,7 @@ entries:
     version: 1.0.0-2026-08-17
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-05T14:56:25.225030089-08:00"
+    created: "2026-11-05T15:45:29.81977047-08:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -190,7 +190,7 @@ entries:
     version: 1.0.0-2026-07-30
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-05T14:56:25.062608496-08:00"
+    created: "2026-11-05T15:45:29.656922403-08:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -207,7 +207,7 @@ entries:
     version: 1.0.0-2026-07-27
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-05T14:56:24.904749251-08:00"
+    created: "2026-11-05T15:45:29.479286121-08:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -222,4 +222,4 @@ entries:
     urls:
     - aizen-1.0.0-2026-07-16.tgz
     version: 1.0.0-2026-07-16
-generated: "2026-11-05T14:56:24.715833627-08:00"
+generated: "2026-11-05T15:45:29.275987044-08:00"
