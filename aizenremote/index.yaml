@@ -3,7 +3,7 @@ entries:
   aizenremote:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-03T10:08:04.761785228-08:00"
+    created: "2026-11-05T14:56:37.411216475-08:00"
     dependencies:
     - condition: metastorage.enabled
       name: metastorage
@@ -23,7 +23,27 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-03T10:08:04.745095602-08:00"
+    created: "2026-11-05T14:56:37.396258341-08:00"
+    dependencies:
+    - condition: metastorage.enabled
+      name: metastorage
+      repository: ""
+    - condition: mcad-controller.enabled
+      name: mcad-controller
+      repository: ""
+    - condition: jobcontroller.enabled
+      name: jobcontroller
+      repository: ""
+    description: Helm chart for Aizen remote deployment
+    digest: 157a0a3b818164d49dd6eb7ab5b288f68018620b00657c480a06e16630324d37
+    name: aizenremote
+    type: application
+    urls:
+    - aizenremote-1.0.0-2026-11-05.tgz
+    version: 1.0.0-2026-11-05
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-11-05T14:56:37.384815025-08:00"
     dependencies:
     - condition: metastorage.enabled
       name: metastorage
@@ -43,7 +63,7 @@ entries:
     version: 1.0.0-2026-11-02
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-03T10:08:04.733055826-08:00"
+    created: "2026-11-05T14:56:37.373820868-08:00"
     dependencies:
     - condition: metastorage.enabled
       name: metastorage
@@ -63,7 +83,7 @@ entries:
     version: 1.0.0-2026-10-29
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-03T10:08:04.716999441-08:00"
+    created: "2026-11-05T14:56:37.359893413-08:00"
     dependencies:
     - condition: metastorage.enabled
       name: metastorage
@@ -83,7 +103,7 @@ entries:
     version: 1.0.0-2026-10-26
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-03T10:08:04.704270625-08:00"
+    created: "2026-11-05T14:56:37.343781398-08:00"
     dependencies:
     - condition: metastorage.enabled
       name: metastorage
@@ -103,7 +123,7 @@ entries:
     version: 1.0.0-2026-10-22
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-03T10:08:04.68976198-08:00"
+    created: "2026-11-05T14:56:37.328455344-08:00"
     dependencies:
     - condition: metastorage.enabled
       name: metastorage
@@ -123,7 +143,7 @@ entries:
     version: 1.0.0-2026-10-08
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-03T10:08:04.677946933-08:00"
+    created: "2026-11-05T14:56:37.3129451-08:00"
     dependencies:
     - condition: metastorage.enabled
       name: metastorage
@@ -143,7 +163,7 @@ entries:
     version: 1.0.0-2026-09-24
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-03T10:08:04.666037017-08:00"
+    created: "2026-11-05T14:56:37.301206003-08:00"
     dependencies:
     - condition: metastorage.enabled
       name: metastorage
@@ -163,7 +183,7 @@ entries:
     version: 1.0.0-2026-09-14
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-03T10:08:04.65450237-08:00"
+    created: "2026-11-05T14:56:37.285746069-08:00"
     dependencies:
     - condition: metastorage.enabled
       name: metastorage
@@ -183,7 +203,7 @@ entries:
     version: 1.0.0-2026-08-17
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-03T10:08:04.642679914-08:00"
+    created: "2026-11-05T14:56:37.268260915-08:00"
     dependencies:
     - condition: metastorage.enabled
       name: metastorage
@@ -203,7 +223,7 @@ entries:
     version: 1.0.0-2026-07-30
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-03T10:08:04.629990248-08:00"
+    created: "2026-11-05T14:56:37.25521581-08:00"
     dependencies:
     - condition: metastorage.enabled
       name: metastorage
@@ -221,4 +241,4 @@ entries:
     urls:
     - aizenremote-1.0.0-2026-07-16.tgz
     version: 1.0.0-2026-07-16
-generated: "2026-11-03T10:08:04.614922172-08:00"
+generated: "2026-11-05T14:56:37.234848627-08:00"
