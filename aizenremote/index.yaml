@@ -3,7 +3,7 @@ entries:
   aizenremote:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-05T15:45:39.530977882-08:00"
+    created: "2026-11-19T12:36:21.016622781-08:00"
     dependencies:
     - condition: metastorage.enabled
       name: metastorage
@@ -23,7 +23,27 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-05T15:45:39.515217505-08:00"
+    created: "2026-11-19T12:36:21.003268695-08:00"
+    dependencies:
+    - condition: metastorage.enabled
+      name: metastorage
+      repository: ""
+    - condition: mcad-controller.enabled
+      name: mcad-controller
+      repository: ""
+    - condition: jobcontroller.enabled
+      name: jobcontroller
+      repository: ""
+    description: Helm chart for Aizen remote deployment
+    digest: 34962d524028779e555843b418426a851efb1773b3d4162bcd2dde2d8d55237d
+    name: aizenremote
+    type: application
+    urls:
+    - aizenremote-1.0.0-2026-11-19.tgz
+    version: 1.0.0-2026-11-19
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-11-19T12:36:20.99239239-08:00"
     dependencies:
     - condition: metastorage.enabled
       name: metastorage
@@ -43,7 +63,7 @@ entries:
     version: 1.0.0-2026-11-05
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-05T15:45:39.500261038-08:00"
+    created: "2026-11-19T12:36:20.980309004-08:00"
     dependencies:
     - condition: metastorage.enabled
       name: metastorage
@@ -63,7 +83,7 @@ entries:
     version: 1.0.0-2026-11-02
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-05T15:45:39.482073132-08:00"
+    created: "2026-11-19T12:36:20.967990179-08:00"
     dependencies:
     - condition: metastorage.enabled
       name: metastorage
@@ -83,7 +103,7 @@ entries:
     version: 1.0.0-2026-10-29
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-05T15:45:39.465812925-08:00"
+    created: "2026-11-19T12:36:20.953908694-08:00"
     dependencies:
     - condition: metastorage.enabled
       name: metastorage
@@ -103,7 +123,7 @@ entries:
     version: 1.0.0-2026-10-26
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-05T15:45:39.452913308-08:00"
+    created: "2026-11-19T12:36:20.942258038-08:00"
     dependencies:
     - condition: metastorage.enabled
       name: metastorage
@@ -123,7 +143,7 @@ entries:
     version: 1.0.0-2026-10-22
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-05T15:45:39.434261782-08:00"
+    created: "2026-11-19T12:36:20.928633803-08:00"
     dependencies:
     - condition: metastorage.enabled
       name: metastorage
@@ -143,7 +163,7 @@ entries:
     version: 1.0.0-2026-10-08
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-05T15:45:39.417250065-08:00"
+    created: "2026-11-19T12:36:20.915539198-08:00"
     dependencies:
     - condition: metastorage.enabled
       name: metastorage
@@ -163,7 +183,7 @@ entries:
     version: 1.0.0-2026-09-24
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-05T15:45:39.405629198-08:00"
+    created: "2026-11-19T12:36:20.901524623-08:00"
     dependencies:
     - condition: metastorage.enabled
       name: metastorage
@@ -183,7 +203,7 @@ entries:
     version: 1.0.0-2026-09-14
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-05T15:45:39.389530751-08:00"
+    created: "2026-11-19T12:36:20.889197088-08:00"
     dependencies:
     - condition: metastorage.enabled
       name: metastorage
@@ -203,7 +223,7 @@ entries:
     version: 1.0.0-2026-08-17
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-05T15:45:39.371136965-08:00"
+    created: "2026-11-19T12:36:20.876309953-08:00"
     dependencies:
     - condition: metastorage.enabled
       name: metastorage
@@ -223,7 +243,7 @@ entries:
     version: 1.0.0-2026-07-30
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-05T15:45:39.357199518-08:00"
+    created: "2026-11-19T12:36:20.861347388-08:00"
     dependencies:
     - condition: metastorage.enabled
       name: metastorage
@@ -241,4 +261,4 @@ entries:
     urls:
     - aizenremote-1.0.0-2026-07-16.tgz
     version: 1.0.0-2026-07-16
-generated: "2026-11-05T15:45:39.341216841-08:00"
+generated: "2026-11-19T12:36:20.838986616-08:00"
