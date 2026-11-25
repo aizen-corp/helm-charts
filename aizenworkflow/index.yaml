@@ -3,7 +3,7 @@ entries:
   workflow:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-19T12:36:36.922097284-08:00"
+    created: "2026-11-25T14:43:48.170350972-08:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -20,7 +20,24 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-19T12:36:36.785603296-08:00"
+    created: "2026-11-25T14:43:48.019062888-08:00"
+    dependencies:
+    - condition: infra.enabled
+      name: infra
+      repository: ""
+    - condition: core.enabled
+      name: core
+      repository: ""
+    description: Helm chart for Aizen workflow deployment
+    digest: 0fe7707dc656e7ae5e9543a8caeaf0022b5dbef7a08ee912a0f4a9391ed87bb9
+    name: workflow
+    type: application
+    urls:
+    - workflow-1.0.0-2026-11-25.tgz
+    version: 1.0.0-2026-11-25
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-11-25T14:43:47.866522175-08:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -37,7 +54,7 @@ entries:
     version: 1.0.0-2026-11-19
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-19T12:36:36.645990067-08:00"
+    created: "2026-11-25T14:43:47.723040909-08:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -54,7 +71,7 @@ entries:
     version: 1.0.0-2026-11-05
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-19T12:36:36.50375807-08:00"
+    created: "2026-11-25T14:43:47.568288926-08:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -71,7 +88,7 @@ entries:
     version: 1.0.0-2026-11-02
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-19T12:36:36.365984271-08:00"
+    created: "2026-11-25T14:43:47.405548265-08:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -88,7 +105,7 @@ entries:
     version: 1.0.0-2026-10-29
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-19T12:36:36.227439463-08:00"
+    created: "2026-11-25T14:43:47.251996262-08:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -105,7 +122,7 @@ entries:
     version: 1.0.0-2026-10-26
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-19T12:36:36.082422098-08:00"
+    created: "2026-11-25T14:43:47.100656898-08:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -122,7 +139,7 @@ entries:
     version: 1.0.0-2026-10-22
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-19T12:36:35.935962931-08:00"
+    created: "2026-11-25T14:43:46.943620696-08:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -139,7 +156,7 @@ entries:
     version: 1.0.0-2026-10-08
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-19T12:36:35.799375713-08:00"
+    created: "2026-11-25T14:43:46.795664681-08:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -156,7 +173,7 @@ entries:
     version: 1.0.0-2026-09-24
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-19T12:36:35.665793382-08:00"
+    created: "2026-11-25T14:43:46.649093397-08:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -173,7 +190,7 @@ entries:
     version: 1.0.0-2026-09-14
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-19T12:36:35.467443976-08:00"
+    created: "2026-11-25T14:43:46.491781214-08:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -190,7 +207,7 @@ entries:
     version: 1.0.0-2026-08-17
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-19T12:36:35.331987997-08:00"
+    created: "2026-11-25T14:43:46.330945503-08:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -207,7 +224,7 @@ entries:
     version: 1.0.0-2026-07-30
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-19T12:36:35.199318906-08:00"
+    created: "2026-11-25T14:43:46.17237767-08:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -224,7 +241,7 @@ entries:
     version: 1.0.0-2026-07-27
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-19T12:36:35.058609449-08:00"
+    created: "2026-11-25T14:43:46.018610008-08:00"
     dependencies:
     - condition: infra.enabled
       name: infra
@@ -239,4 +256,4 @@ entries:
     urls:
     - workflow-1.0.0-2026-07-16.tgz
     version: 1.0.0-2026-07-16
-generated: "2026-11-19T12:36:34.899369477-08:00"
+generated: "2026-11-25T14:43:45.856238966-08:00"
